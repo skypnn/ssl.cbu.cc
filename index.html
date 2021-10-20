@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+<title>SSL证书|HTTPS加密|SSL数字证书 | Let's Encrypt证书【官网】 一分钟创建免费SSL证书及免费通配符SSL证书</title>
+	<meta name="keywords" content="SSL证书,HTTPS加密,HTTPS,SSL,SSL数字证书,SSL通配符证书,SSL免费永久证书" />
+	<meta name="description" content="Let's Encrypt Authority x3 SSL证书「新产品全球信任」,支持所有浏览器和操作系统,支持所有移动终端,「100%永久免费」,技术支持和优质服务." />
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+  <meta name="baidu-site-verification" content="ifTFvBRPIF" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+	
+	<!-- css files -->
+	<link rel="stylesheet" href="css/bootstrap.css"> <!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" /> <!-- Style-CSS --> 
+	<!-- //css files -->
+	<link rel="icon" href="/images/ssl_ico.png">
+	<!--web font--> 
+	<link href="/css/googleapis.css" rel="stylesheet">
+	<!--//web font-->
+
+</head>
+
+<body>
+
+<!-- header -->
+<header>
+	<div class="container">
+		<div class="header d-lg-flex align-items-center">
+			<div class="header-agile">
+				<h1>
+					<a class="navbar-brand logo" href="/">
+						<span class="fa"><img src="/images/ssl.png"></span>
+					</a>
+				</h1>
+			</div>
+			<div class="nav_w3ls">
+				<nav>
+					<label for="drop" class="toggle mt-lg-0 mt-2"><span class="fa fa-bars" aria-hidden="true"></span></label>
+					<input type="checkbox" id="drop" />
+						<ul class="menu">
+							<li class="active"><a href="/">首页</a></li>
+							<li class=""><a href="#zhinan">指南</a></li>
+							<li class=""><a href="#jieshao">介绍</a></li>
+                          <li class=""><a href="#anli">案例</a></li>
+                          <li class=""><a href="#fangan">方案</a></li>
+							<li class="p-0">
+							<!-- First Tier Drop Down -->
+							<label for="drop-2" class="toggle"><span class="fa fa-angle-down" aria-hidden="true"></span> </label>
+							<a href="#">更多··· <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+							<input type="checkbox" id="drop-2"/>
+							<ul class="inner-dropdown">
+								<li><a href="JavaScript:">待添加</a></li>
+							</ul>
+							</li>
+						</ul>
+				</nav>
+			</div>
+			<div class="buttons mt-lg-0 mt-3 ml-auto">
+				<a href="https://www.sslforfree.com/" target="_black">立即申请SSL证书 </a>
+			</div>
+
+		</div>
+	</div>
+</header>
+<!-- //header -->
+
+<!-- banner -->
+<div class="banner_w3lspvt" id="home">
+	<div class="container">
+		<div class="banner-tops-style">
+			<div class="style-banner">
+				<h2 class="text-wh">SSL免费加密证书套餐 <span>  <span class="color"><br></span> </span><span style="font-size:20px;">一分钟创建免费SSL证书及免费通配符SSL证书</span></h2>
+				<a href="https://www.sslforfree.com/" class="btn button-style mt-sm-5 mt-4">立即前往 >>></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+
+<!-- about -->
+<section class="about py-5" id="zhinan">
+	<div class="container py-sm-4">
+		<div class="heading-grid text-center">
+			<h5>SSL免费套餐</h5>
+			<h4>在2,000,000+免费SSL证书创建</h4>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 about-left">
+				<h3>这个怎么运作</h3>
+				<h5>1、让我们加密是第一个免费开放的CA</h5>
+              <p class="mt-4">我们生成使用他们的ACME服务器通过使用域验证证书</p>
+              <h5>2、私钥在您的浏览器产生的，从来没有发送。</h5>
+				<p class="mt-4" style="text-align:justify; text-justify:inter-ideograph;">对于支持网络加密（所有现代浏览器）的浏览器，我们生成在浏览器中的私钥使用网络加密API和私钥永不传输。生成证书后，私有密钥也被删除了你的浏览器。如果你的浏览器不支持网络加密API那么钥匙将使用最新版本的OpenSSL的服务器上生成，并通过SSL输出和永远保存。为了获得最佳的安全性，建议用户使用客户端生成一个支持的浏览器。使用手动验证在这种情况下，私钥被完全处理您的结束时，也可以提供自己的社会责任。
+
+</p>
+			</div>
+			<div class="col-lg-6 about-right position-relative mt-lg-0 mt-5">
+				<img src="images/about2.jpg" alt="" class="img-fluid img-border ml-lg-5" />
+				<img src="images/about1.jpg" alt="" class="img-fluid position-absolute img-position" />
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //about -->
+
+<!-- features -->
+<section class="banner-bottom py-5" id="jieshao">
+	<div class="container py-sm-4">
+		<div class="heading-grid text-center">
+			<h5>100％永久免费</h5>
+			<h4>永远不会再支付SSL。由于Letsencrypt第一非营利CA.</h4>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6 mb-lg-0 mb-5">
+				<div class="row inner-info">
+					<div class="col-md-2">
+						<span class="fa fa-s15"></span>
+					</div>
+					<div class="col-md-10">
+						<h4 class="mt-md-0 my-2">100%永久免费</h4>
+						<p class="" style="word-break: keep-all;">永远不会再收费
+                          第一非营利性CA证书签发机构.
+                      多域名支持</p>
+					</div>
+					<div class="col-md-2 mt-5">
+						<span class="fa fa-shower"></span>
+					</div>
+					<div class="col-md-10 mt-md-5">
+						<h4 class="mt-md-0 my-2">99%浏览器信任</h4>
+						<p class="" style="word-break: keep-all;">我们的证书信任所有的主流浏览器
+                      chrome + firefox + safari + ie9 + Opera ···</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="row inner-info">
+					<div class="col-md-2">
+						<span class="fa fa-cogs"></span>
+					</div>
+					<div class="col-md-10">
+						<h4 class="mt-md-0 my-2">广泛应用</h4>
+						<p class=""  style="word-break: keep-all;">用户和服务器的合法性认证
+                      加密数据以隐藏被传送的数据
+                      护数据的完整性</p>
+					</div>
+					<div class="col-md-2 mt-5">
+						<span class="fa fa-window-restore"></span>
+					</div>
+					<div class="col-md-10 mt-md-5">
+						<h4 class="mt-md-0 my-2">SSL好处</h4>
+						<p class="" style="word-break: keep-all;">
+                          保护用户数据和赢得信任
+						提高搜索引擎排名
+						防止黑客攻击网站的形式</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 mt-lg-0 mt-4 col-md-6">
+              <a href="javascript:"><img src="images/right.jpg" class="img-fluid" alt="" /></a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //features -->
+
+<!-- blog -->
+<section class="blog py-5" id="anli">
+	<div class="container py-sm-4">
+		<div class="heading-grid text-center">
+			<h5>Application case</h5>
+			<h4>使用本SSL证书网站</h4>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 mt-lg-0 col-md-6">
+				<img src="/images/government-lg.jpg" class="img-fluid" alt="" />
+				<div class="blog-info">
+					<h4 class="mb-3">美国政府</h4>
+					<p class="">联邦，州和地方政府机构信任用于安全访问应用程序，数字签名和安全电子邮件的数字证书。</p>
+					<ul class="mt-2">
+						<li><a >2019 /</a></li>
+						<li><a >2 /</a></li>
+						<li><a >13 </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 mt-md-0 mt-4 col-md-6">
+				<img src="images/healthcare-lg.jpg" class="img-fluid" alt="" />
+				<div class="blog-info">
+					<h4 class="mb-3">卫生保健</h4>
+					<p class="">数字证书满足DEA规定的EPCS处方，保护医疗保健数据以及安全访问医疗设备和相关数据。</p>
+					<ul class="mt-2">
+						<li><a >2019 /</a></li>
+						<li><a >2 /</a></li>
+						<li><a >8 </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 mt-lg-0 mt-4 col-md-6">
+				<img src="images/personal-prof-lg.jpg" class="img-fluid" alt="" />
+				<div class="blog-info">
+					<h4 class="mb-3">个人与专业技术网站</h4>
+					<p class="">使用受信任的基于身份的证书对电子文档进行数字签名和密封，保护电子邮件或使用电子通知服务。</p>
+					<ul class="mt-2">
+						<li><a >2019 /</a></li>
+						<li><a >2 /</a></li>
+						<li><a >3 </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+      <br>
+      <div class="row">
+			<div class="col-lg-4 mt-lg-0 col-md-6">
+				<img src="/images/enterprise-lg.jpg" class="img-fluid" alt="">
+				<div class="blog-info">
+					<h4 class="mb-3">企业与应用</h4>
+					<p class="">利用基于身份的交钥匙解决方案的强大功能，确保数据安全并应对各种业务挑战。</p>
+					<ul class="mt-2">
+						<li><a>2019 /</a></li>
+						<li><a>2 /</a></li>
+						<li><a>14 </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 mt-md-0 mt-4 col-md-6">
+				<img src="images/banking-lg.jpg" class="img-fluid" alt="">
+				<div class="blog-info">
+					<h4 class="mb-3">银行与金融</h4>
+					<p class="">发现一系列基于身份的数字证书产品，提供方便，高度安全的身份验证和数字签名解决方案。</p>
+					<ul class="mt-2">
+						<li><a>2019 /</a></li>
+						<li><a>2 /</a></li>
+						<li><a>7 </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-4 mt-lg-0 mt-4 col-md-6">
+				<img src="images/manufacturing-lg.jpg" class="img-fluid" alt="">
+				<div class="blog-info">
+					<h4 class="mb-3">制造业</h4>
+					<p class="">在制造环境中实施基于身份的解决方案，以保护物联网设备，安全访问应用程序并保护网站。</p>
+					<ul class="mt-2">
+						<li><a>2019 /</a></li>
+						<li><a>2 /</a></li>
+						<li><a>6 </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+      <br>
+      <div class="row">
+			<div class="col-lg-4 mt-lg-0 col-md-6">
+				<img src="/images/life-science-Scaled.jpg" class="img-fluid" alt="">
+				<div class="blog-info">
+					<h4 class="mb-3">生命科学</h4>
+					<p class="">IdenTrust ®提供的符合安全，生物制药数字证书®数字身份和签名标准。</p>
+					<ul class="mt-2">
+						<li><a>2019 /</a></li>
+						<li><a>2 /</a></li>
+						<li><a>19 </a></li>
+					</ul>
+				</div>
+			</div>
+			
+			
+		</div>
+	</div>
+</section>
+<!-- //blog -->
+
+<!-- team -->
+<section class="team py-5" id="team" >
+	<div class="container py-xl-5 py-lg-3" id="fangan">
+		<div class="heading-grid text-center">
+			<h5>Solution</h5>
+			<h4>解决方案</h4>
+		</div>
+		<div class="row inner-sec-w3layouts-w3pvt-lauinfo">
+			<div class="col-md-3 col-sm-6">
+				<div class="team-grids text-center">
+					<img src="images/digital-signing3-wdp16t.png" class="img-fluid" alt="">
+					<div class="social-icons-section">
+						<a class="fac" href="https://www.identrust.com/node/321">
+							<i class="fa fa-terminal"></i>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+					<div class="team-info">
+						<div class="caption">
+							<h4>数字签名</h4>
+							<h6>使用数字签名来简化签名和审批流程，消除文件并建立电子审计跟踪。</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 mt-sm-0 mt-5">
+				<div class="team-grids text-center">
+					<img src="/images/secure-authentication3-7k4qit.png" class="img-fluid" alt="">
+					<div class="social-icons-section">
+						<a class="fac" href="https://www.identrust.com/node/322">
+							<i class="fa fa-terminal"></i>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+					<div class="team-info">
+						<div class="caption">
+							<h4>安全访问</h4>
+							<h6>实施基于数字证书的双因素身份验证，以控制对系统，网站或应用程序的访问。</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 mt-md-0 mt-5">
+				<div class="team-grids text-center">
+					<img src="/images/encrypt4-elxb0w.png" class="img-fluid" alt="">
+					<div class="social-icons-section">
+						<a class="fac" href="https://www.identrust.com/node/323">
+							<i class="fa fa-terminal"></i>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+					<div class="team-info">
+						<div class="caption">
+							<h4>数据和电子邮件加密</h4>
+							<h6>使用数字证书保护通信，以确保电子邮件的完整性并加密电子邮件内容。</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+          <div class="col-md-3 col-sm-6 mt-md-0 mt-5">
+				<div class="team-grids text-center">
+					<img src="/images/links4-7nf8or.png" class="img-fluid" alt="">
+					<div class="social-icons-section">
+						<a class="fac" href="https://www.identrust.com/node/324">
+							<i class="fa fa-terminal"></i>
+						</a>
+					</div>
+					<div class="clearfix"></div>
+					<div class="team-info">
+						<div class="caption">
+							<h4>互联网可信赖的东西</h4>
+							<h6>确保与现场不同设备交换的数据和通信的完整性，身份验证和机密性。</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- team -->
+
+
+<!-- newsletter -->
+<section class="subscribe-main py-5" id="subscribe">
+	<div class="container py-md-4">
+		<div class="row">
+			<div class="col-lg-6">
+			<div class="heading-grid mb-0">
+				<h5>还有不明白的吗？</h5>
+				<h4>给我发邮件吧，看到一定回复你···</h4>
+              <p>开始吧！</p>
+			</div>
+			</div>
+			<div class="col-lg-6 newsletter-info mt-4">
+				<div method="post" class="d-flex">
+					<input type="email" disabled="disabled" name="email" placeholder="info@cikj.net" required="">
+                  <a  href="mailto:info@cikj.net" class="btn button-style mt-sm-5 mt-4" style="background:#007bff;">去发邮件</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //newsletter-->
+
+<!-- footer -->
+<footer class="py-5">
+	<div class="container">
+		<div class="row footer_grids">
+			<div class="col-lg-4 col-md-6 footer_right">
+				<h3 class="mb-md-4 mb-3">Contact Info</h3>
+				<p>我们是一家CA证书签发机构</p>
+				<p> <span class="fa mr-1 fa-envelope-open"></span> <a href="mailto:info@cikj.net">info@cikj.net</a> </p>
+				<p> <span class="fa mr-1 fa-phone"></span> +86 - ( 暂未开放 ) </p>
+				<p> <span class="fa mr-1 fa-map-marker"></span> No.27 - 59436 Street Floor, Newyork. </p>
+				<p> <span class="fa mr-1 fa-clock-o"></span> 每天 9:00–18:00</p>
+			</div>
+			
+			<div class="col-lg-4 col-md-6 mt-lg-0 mt-sm-5 mt-4 footer_middle">
+				<h3 class="mb-md-4 mb-3">asked questions</h3>
+				<ul>
+					<li><b>这是免费用于商业用途？</b><br>是的，它是免费提供给所有用途，包括商业用途。</li>
+                  <li class="my-3"><b>做这些对IP地址的SSL证书的工作？</b> <br>没有，只能用于注册的域名生成证书。</li>
+                  <li><b>能够验证文件和TXT记录核实后删除？</b><br>是的，所有的验证文件和记录可以核实后予以删除。这是每个验证只能使用一次。</li>
+				</ul>
+			</div>
+			<div class="col-lg-4 footer_left mt-lg-0 mt-sm-5 mt-4">
+				<h3 class="mb-md-4 mb-3">Useful Links</h3>
+				<ul>
+                  <li><a href="https://cikj.net" target="_blank">名品家具 |</a></li>
+                  <li><a href="http://www.jjeee.com" target="_blank">美国空间 |</a></li>
+                  <li><a href="http://www.66e1.com" target="_blank">虚拟主机 |</a></li>
+                  <li><a href="http://www.54admin.net" target="_blank">站长分类目录 |</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="copyright text-center py-3">
+	<p>Copyright &copy; 2019.Company name All rights reserved.<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1276303738'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1276303738%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script></p>
+</div>
+<!-- //footer -->
+
+<!-- move top icon -->
+<a href="#home" class="move-top text-center">
+	<span class="fa fa-angle-double-up"></span>
+</a>
+<!-- //move top icon -->
+  <!--网站客服代码-->
+<script>
+	(function (w, d, n, a, j) {
+		w[n] = w[n] || function () {
+			(w[n].a = w[n].a || []).push(arguments);
+		};
+		j = d.createElement('script');
+		j.async = true;
+		j.src ='/js/kf.js';
+		d.body.appendChild(j);
+	})(window, document, 'ysf');
+</script>
+</body>
+</html>
