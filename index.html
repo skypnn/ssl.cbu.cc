@@ -374,8 +374,8 @@
 			</div>
 			<div class="col-lg-6 newsletter-info mt-4">
 				<div method="post" class="d-flex">
-					<input type="email" disabled="disabled" name="email" placeholder="info@cikj.net" required="">
-                  <a  href="mailto:info@cikj.net" class="btn button-style mt-sm-5 mt-4" style="background:#007bff;">去发邮件</a>
+					<input type="email" disabled="disabled" name="email" placeholder="admin.dev@it.cbu.cc" required="">
+                  <a  href="mailto:admin.dev@it.cbu.cc" class="btn button-style mt-sm-5 mt-4" style="background:#007bff;">去发邮件</a>
 				</div>
 			</div>
 		</div>
@@ -407,10 +407,8 @@
 			<div class="col-lg-4 footer_left mt-lg-0 mt-sm-5 mt-4">
 				<h3 class="mb-md-4 mb-3">Useful Links</h3>
 				<ul>
-                  <li><a href="https://cikj.net" target="_blank">名品家具 |</a></li>
-                  <li><a href="http://www.jjeee.com" target="_blank">美国空间 |</a></li>
-                  <li><a href="http://www.66e1.com" target="_blank">虚拟主机 |</a></li>
-                  <li><a href="http://www.54admin.net" target="_blank">站长分类目录 |</a></li>
+                  <li><a href="http://cbu.cc/blog/" target="_blank">cbu技术博客 |</a></li>
+                  
 				</ul>
 			</div>
 		</div>
@@ -427,7 +425,34 @@
 </a>
 <!-- //move top icon -->
   <!--网站客服代码-->
-<script>
+	<div class="layer-4" id="YSF-BTN-HOLDER" style="display: block;"><div id="YSF-CUSTOM-ENTRY-4"><img src="/images/kefu/custom/4.png"></div><span id="YSF-BTN-CIRCLE" style="display: none;"></span><div id="YSF-BTN-BUBBLE" style="display: none;"><div id="YSF-BTN-CONTENT"></div><span id="YSF-BTN-ARROW"></span><span id="YSF-BTN-CLOSE"></span></div></div>
+	
+<script src="https://yzf.qq.com/xv/web/static/chat_sdk/yzf_chat.min.js"></script>
+  <script>
+    //参数说明
+    //sign：公司渠道唯一标识，复制即可，无需改动
+    //uid：用户唯一标识，如果没有则不填写，默认为空
+    //data：用于传递用户信息，最多支持5个，参数名分别为c1,c2,c3,c4,c5；默认为空
+    //selector：css选择器(document.querySelector, 如#btnid .chat-btn等)，用于替换默认的常驻客服入口
+    //callback(type, data): 回调函数,type表示事件类型， data表示事件相关数据
+    //type支持的类型：newmsg有新消息，error云智服页面发生错误， close聊天窗口关闭
+    window.yzf && window.yzf.init({
+      sign: '37ef9b97d6730492231698e749e7b733b3e8279b349e1389da01b0733a8c2f225cb5e2a088a4eb69a4c0da342f16632fb19379e0',
+      uid: '',
+      data: {
+        c1: '',
+        c2: '',
+        c3: '',
+        c4: '',
+        c5: ''
+      },
+      selector: 'YSF-BTN-HOLDER',
+      callback: function(type, data){}
+    })
+    //window.yzf.close() 关闭1已打开的回话窗口
+</script>
+	
+<!--<script>
 	(function (w, d, n, a, j) {
 		w[n] = w[n] || function () {
 			(w[n].a = w[n].a || []).push(arguments);
@@ -437,6 +462,6 @@
 		j.src ='/js/kf.js';
 		d.body.appendChild(j);
 	})(window, document, 'ysf');
-</script>
+</script>-->
 </body>
 </html>
